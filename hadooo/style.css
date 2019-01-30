@@ -1,0 +1,238 @@
+
+/* my rulez */
+
+*, ::after, ::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: none !important;
+}
+body{
+    background-color: #eee;
+}
+.fa, .fas {
+    margin-right: 5px;
+    color: #777;
+}
+.nav .navbar-nav {
+float: left;
+}
+/* my rulez */
+
+/* home-page */
+.home-page .main-post{
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.home-page .main-post .post-author ,
+.home-page .main-post .post-date,
+.home-page .main-post .post-comments{
+    font-size: 13px;
+    padding-right: 15px;
+    
+}
+
+.home-page .main-post h3{
+    margin: 0 0 10px;
+    font-weight: bold;
+    color: #777;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+}
+.home-page .main-post img{
+    display: block;
+    margin-top: 15px;
+}
+.home-page .post_pagination{
+    margin: 20px auto 30px;
+    width: 400px;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+.home-page .post_pagination span{
+    opacity: .5;
+    cursor: not-allowed;
+}
+.home-page .post_pagination .previous{
+    margin-right: 10px;
+}
+.home-page .post_pagination a,
+.home-page .post_pagination span{
+    display:inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.home-page .post_pagination a:first-of-type{
+    margin-right: 10px;
+}
+/* home-page */
+
+
+/* single-page */
+.single-page .main-post{
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    margin: auto;
+}
+.single-page .main-post .post-author ,
+.single-page .main-post .post-date,
+.single-pagee .main-post .post-comments{
+    font-size: 13px;
+    padding-right: 15px;
+    
+}
+
+.single-page .main-post h3{
+    margin: 0 0 10px;
+    font-weight: bold;
+    color: #777;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+}
+.single-page .main-post img{
+    display: block;
+    margin-top: 15px;
+}
+.single-page .post_pagination{
+    margin: 20px auto 30px;
+    width: 400px;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+.single-page .post_pagination span{
+    opacity: .5;
+    cursor: not-allowed;
+}
+.single-page .post_pagination .previous{
+    margin-right: 10px;
+}
+.single-page .post_pagination a,
+.single-page .post_pagination span{
+    display:inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.single-page .post_pagination a:first-of-type{
+    margin-right: 10px;
+}
+/* single-page */
+
+/* info */
+
+.info{
+
+    background-color: #fff;
+    margin-top: 25px;
+    border: 1px solid #cccc;
+    text-transform: capitalize;
+}
+.info .avatar{
+    margin-top: 15px;
+    text-align: center;
+}
+.info .btn{
+    display: block;
+    color: #fff;
+    margin-bottom: 15px;
+    width: 80%;
+    border: none;
+}
+.info .btn a{
+    color: #fff;
+}
+.author-info h5{
+    margin-top: 25px;
+    color: #0d0d0dcc;
+    font-weight: 400;
+}
+.author-info h5 span{
+    color: #082057cc;
+    font-weight: 400;
+}
+.author-info p{
+    color: #343a40 ;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+/* single-page */
+
+/* comments */
+
+.comment-count{
+    padding: 12px;
+    background-color: #acacac;;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    color: #fff;
+}
+.comments-list ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.comment-body{
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+.comment-body img{
+    padding: 3px;
+    border: 1px solid #cccc;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+/* comments */
+
+
+/* comment-respond */
+
+.comment-respond .comment-reply-title{
+
+    text-align: center;
+    padding: 12px;
+    background-color: #acacac;;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    color: #fff;
+}
+.comment-respond .comment-notes{
+    color: #616264;
+    margin: 5px;
+}
+.comment-respond  label{
+    color: #616264;
+    display: block;
+}
+.comment-respond .submit{
+    background-color: #343a40;
+    padding: 13px;
+    color: #fff;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #343a40;
+    display: block;
+    width: 100%;
+}
+footer p{
+    color: #fff;
+    font-size: 1.7em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
